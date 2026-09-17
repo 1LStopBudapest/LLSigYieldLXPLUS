@@ -26,11 +26,11 @@ Activate grid certificate
 ```
 voms-proxy-init --voms cms --valid 168:00
 ```
-Copy the certificate executable from tmp to accounf home directory and link that path to condorScript.py. Change output file transfer path inside condorScript.py.
+Copy the certificate executable from tmp to account home directory and link that path to condorScript.py. Change output file transfer path inside condorScript.py.
 
 Now run following
 ```
 python3 condorScript.py
 ```
 
-
+Now to rename the output root file, the script, condor/Rename_condorfile.py can be used. 
